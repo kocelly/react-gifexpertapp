@@ -5,7 +5,7 @@ export const GifGridItem = ( { id, title, url } ) => {
   // console.log( props );
 
   return (
-    <div>
+    <div className='card'>
       <img src={ url } alt={ title } />
       <p>{ title }</p>
     </div>
